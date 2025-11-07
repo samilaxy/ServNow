@@ -191,7 +191,7 @@ class _ProfileScreenState extends State<ProfileScreen> with RouteAware {
                         color: Colors.grey.withOpacity(0.2),
                       ),
                       child: const Icon(
-                        LineAwesomeIcons.tags,
+                        LineAwesomeIcons.tags_solid,
                         size: 20,
                         color: Colors.grey,
                       ),
@@ -215,7 +215,7 @@ class _ProfileScreenState extends State<ProfileScreen> with RouteAware {
                         color: Colors.grey.withOpacity(0.2),
                       ),
                       child: const Icon(
-                        LineAwesomeIcons.user_friends,
+                        LineAwesomeIcons.user_friends_solid,
                         size: 20,
                         color: Colors.grey,
                       ),
@@ -243,7 +243,7 @@ class _ProfileScreenState extends State<ProfileScreen> with RouteAware {
                             color: Colors.grey.withOpacity(0.2),
                           ),
                           child: const Icon(
-                            LineAwesomeIcons.shopping_basket,
+                            LineAwesomeIcons.shopping_basket_solid,
                             size: 20,
                             color: Colors.grey,
                           ),
@@ -300,7 +300,7 @@ class _ProfileScreenState extends State<ProfileScreen> with RouteAware {
                         color: Colors.grey.withOpacity(0.2),
                       ),
                       child: const Icon(
-                        LineAwesomeIcons.alternate_sign_out,
+                        LineAwesomeIcons.sign_in_alt_solid,
                         size: 20,
                         color: Colors.grey,
                       )),

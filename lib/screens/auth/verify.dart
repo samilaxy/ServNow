@@ -98,7 +98,7 @@ class _MyVerifyState extends State<MyVerify> {
                 length: 6,
                 // onClipboardFound: (enteredCode) {},
                 autofocus: true,
-                androidSmsAutofillMethod: AndroidSmsAutofillMethod.none,
+               /// androidSmsAutofillMethod: AndroidSmsAutofillMethod.none,
                 controller: pinController,
                 defaultPinTheme: defaultPinTheme,
                 focusedPinTheme: focusedPinTheme,

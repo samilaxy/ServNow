@@ -1,0 +1,2 @@
+/Users/user/Documents/Projects/New/ServNow/android/app/.cxx/Debug/6y4r5yu6/x86/CMakeFiles/rebuild_cache.dir
+/Users/user/Documents/Projects/New/ServNow/android/app/.cxx/Debug/6y4r5yu6/x86/CMakeFiles/edit_cache.dir

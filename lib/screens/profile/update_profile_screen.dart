@@ -87,7 +87,7 @@ class _UpdateProfileScreenState extends State<UpdateProfileScreen> {
                             profileProvider.selectImg();
                           },
                           icon: const Icon(
-                            LineAwesomeIcons.camera,
+                            LineAwesomeIcons.camera_solid,
                             color: Colors.white,
                             size: 20,
                           ),
@@ -125,7 +125,7 @@ class _UpdateProfileScreenState extends State<UpdateProfileScreen> {
                           border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(100)),
                           label: const Text("Email"),
-                          prefixIcon: const Icon(LineAwesomeIcons.envelope_1)),
+                          prefixIcon: const Icon(LineAwesomeIcons.envelope_solid)),
                     ),
                     const SizedBox(height: 10),
                     TextFormField(
@@ -135,7 +135,7 @@ class _UpdateProfileScreenState extends State<UpdateProfileScreen> {
                           border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(100)),
                           label: const Text("Phone"),
-                          prefixIcon: const Icon(LineAwesomeIcons.phone)),
+                          prefixIcon: const Icon(LineAwesomeIcons.phone_solid)),
                     ),
                     const SizedBox(height: 10),
                     TextFormField(
@@ -145,7 +145,7 @@ class _UpdateProfileScreenState extends State<UpdateProfileScreen> {
                         border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(30)),
                         label: const Text("Bio"),
-                        prefixIcon: const Icon(LineAwesomeIcons.info_circle),
+                        prefixIcon: const Icon(LineAwesomeIcons.info_circle_solid),
                       ),
                     ),
 

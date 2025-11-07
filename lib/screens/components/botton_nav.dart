@@ -72,7 +72,7 @@ class _BottomNarBarState extends State<BottomNarBar> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Icon(
-                            LineAwesomeIcons.home,
+                            LineAwesomeIcons.user,
                             color: currentTab == 0 ? mainColor : Colors.grey,
                           ),
                           Text("Home",
@@ -95,7 +95,7 @@ class _BottomNarBarState extends State<BottomNarBar> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Icon(
-                            LineAwesomeIcons.search,
+                            LineAwesomeIcons.search_plus_solid,
                             color: currentTab == 1 ? mainColor : Colors.grey,
                           ),
                           Text("Search",
@@ -128,7 +128,7 @@ class _BottomNarBarState extends State<BottomNarBar> {
                         // height: 55,
                         // width: 55,
                         child: const Icon(
-                          LineAwesomeIcons.plus,
+                          LineAwesomeIcons.plus_solid,
                           color: Colors.black,
                         ),
                       ),
@@ -170,7 +170,7 @@ class _BottomNarBarState extends State<BottomNarBar> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Icon(
-                            LineAwesomeIcons.user_tag,
+                            LineAwesomeIcons.user_alt_solid,
                             color: currentTab == 3 ? mainColor : Colors.grey,
                           ),
                           Text("Profile",

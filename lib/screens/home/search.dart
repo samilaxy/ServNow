@@ -91,7 +91,7 @@ class _SearchScreenState extends State<SearchScreen> {
                             floatingLabelBehavior: FloatingLabelBehavior.never,
                             prefixIcon: const Icon(
                               size: 15,
-                              LineAwesomeIcons.search,
+                              LineAwesomeIcons.search_solid,
                               color: Colors.grey,
                             ),
                             suffixIcon: Visibility(
